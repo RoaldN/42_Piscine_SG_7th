@@ -41,10 +41,12 @@ pull
 ---
 
 Shell 00 
+
  this exercise create Git repository
 video link: https://youtu.be/qu8vjw5xwLA?si=hNuNBzE0IppwFj9j
-clone this:
-""git@vogsphere.42singapore.sg:vogsphere/intra-uuid-f8a6af5f-5eb4-4126-8010-c8bcdff19627-6731009-yuneo""
+
+clone your exercise folder and file into this git:
+<<git@vogsphere.42singapore.sg:vogsphere/intra-uuid-f8a6af5f-5eb4-4126-8010-c8bcdff19627-6731009-yuneo>>
 
 
 This need for this exercise
@@ -80,15 +82,23 @@ this shows you what files are there and what is being tracked
 
 git add
 add files to git repository
-<git add hi.txt
+<git add hi.txt>
 git status to check
 
 git commit -m
 -m is to make adding them easier
-git commit -m "added hi.txt"
+<git commit -m "added hi.txt">
 
 git push
 pushes all the changes made to the computer to the server
+<git push>
+
+Try use git clone to pull files into new folder in local pc to test the files
+
+ex00:
+git clone xxxxxxxxx_repository ex00
+
+echo Z > z.txt
 
 
 Notes:
@@ -96,9 +106,10 @@ id_rsa	id_rsa.pub  known_hosts
 id_rsa is your private key, your "private bank code"
 id_rsa.pub is the key you can share
 
-Clone git
 
-Connecting to Git
+
+
+--- 
 
 Ex01
 Cat extract the file
