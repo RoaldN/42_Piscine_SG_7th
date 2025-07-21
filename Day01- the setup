@@ -1,1 +1,112 @@
-h
+Day 1 - the setup
+
+Create slack account with own email
+Link slack account with 42 own intranet 
+
+Create github account with own email
+use github as personal knowledge management hub
+42 uses Ubuntu
+
+Links
+https://profile-v3.intra.42.fr/
+https://stackoverflowteams.com/c/42network/users/20861/?tab=topactivity
+https://app.slack.com/client/T095CSNGHM5/C095CTF8N3H
+https://github.com/RoaldN/42_Piscine_SG_7th
+
+Markdown formatting: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+**hotkeys**
+
+
+terminal - Check preference for hotkeys
+
+---
+Terminal commands
+https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal
+
+**Git command**
+Echo
+Git status
+Clone
+Push
+pull
+
+
+
+
+---
+
+
+
+
+---
+
+Shell 00 
+ this exercise create Git repository
+video link: https://youtu.be/qu8vjw5xwLA?si=hNuNBzE0IppwFj9j
+clone this:
+""git@vogsphere.42singapore.sg:vogsphere/intra-uuid-f8a6af5f-5eb4-4126-8010-c8bcdff19627-6731009-yuneo""
+
+
+This need for this exercise
+SSH to protect the pc
+Terminal to access the git clone
+
+Step one:
+Open terminal in pc
+Create SSH:
+<shh-keygen>
+enter 3 times
+<cd ~/.ssh>
+<ls>
+<cat id_rsa.pub>
+
+
+Copy the entire SSH public code (in my case):
+<ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJS7o2pn7yD0KhCAoQj/3kohRqb+LCtOxK17JmieiHJ+9FV7iTRgmVDPb4+AKpIPnLPr9UbBWGrUDhTtYLcKghDyw02YAA3e2RqLOcXGX98GbHV5t88dH6Cv7VMW4RWoUkaK62kJbSwvXvgX/sVYpaIMTcdk2Exv8H47lWJtiSOcIKz07WVikK2xGd7dSjJzENUcevzUYVt8HtqOZseAi0Jynq8Yiu2ub+0cLo82k694LJbFUjyWrFw2H4M36TzII410fFUQrGRzgHCSPA2g75MEORTD0o7Ac41lT74g+suAEVkdYguZs2pbWk2OR5kLEM0AEutVgOz+0RnP6zMVr8vvt34ywk0kPJqN+CyJKWGVEfaARoMh5rivsdFdAnu2K5Cs+LsVR2UKXze7bEJqB4ZKKsCC85Kg7WPu/iGDws8fkCBrGb2iSWiH4ZuDMgVUsIiHoTW+20kXb1p5VvlO/aVukGVftAriCw0abHbr7Inij7Hyfut9kyPR0vaQINr4M= yuneo@c2r6s10.42singapore.sg>
+Go back to the intranet on 42, in the profile/setting/ SSH keys copy all in.
+
+Go back terminal
+<cd ..>
+<mkdir exercise00>
+<git clone git@vogsphere.42singapore.sg:vogsphere/intra-uuid-f8a6af5f-5eb4-4126-8010-c8bcdff19627-6731009-yuneo git_exercise00>
+
+Create files in terminal, use echo
+example:
+<<echo hello_world > hi.txt>>
+Use ls to check
+
+git status
+this shows you what files are there and what is being tracked
+
+git add
+add files to git repository
+<git add hi.txt
+git status to check
+
+git commit -m
+-m is to make adding them easier
+git commit -m "added hi.txt"
+
+git push
+pushes all the changes made to the computer to the server
+
+
+Notes:
+id_rsa	id_rsa.pub  known_hosts
+id_rsa is your private key, your "private bank code"
+id_rsa.pub is the key you can share
+
+Clone git
+
+Connecting to Git
+
+Ex01
+Cat extract the file
+
+
+
+
+
+
+
+
