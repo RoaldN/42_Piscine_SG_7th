@@ -94,7 +94,7 @@ pushes all the changes made to the computer to the server
 <git push>
 
 Try use git clone to pull files into new folder in local pc to test the files
-
+git 
 ex00:
 git clone xxxxxxxxx_repository ex00
 
@@ -112,10 +112,13 @@ id_rsa.pub is the key you can share
 --- 
 
 Ex01
-Cat extract the file
+Create testShell00.tar
 
-
-
+---
+ %> ls -l
+total 1
+-r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
+---
 
 
 
