@@ -1,9 +1,13 @@
+Note to self do not spoil the fun for others in future piscine. 
+No answers given here. 
+Only my own study notes.
+
 Day 1 - the setup
 
 Create slack account with own email
-Link slack account with 42 own intranet 
+Link slack account with 42 own intranet using 42's new student email
 
-Create github account with own email
+Create github account with own email, link student email also for education benefits
 use github as personal knowledge management hub
 42 uses Ubuntu
 
@@ -14,6 +18,7 @@ https://app.slack.com/client/T095CSNGHM5/C095CTF8N3H
 https://github.com/RoaldN/42_Piscine_SG_7th
 
 Markdown formatting: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
 **hotkeys**
 
 
@@ -48,7 +53,6 @@ video link: https://youtu.be/qu8vjw5xwLA?si=hNuNBzE0IppwFj9j
 clone your exercise folder and file into this git:
 <<git@vogsphere.42singapore.sg:vogsphere/intra-uuid-f8a6af5f-5eb4-4126-8010-c8bcdff19627-6731009-yuneo>>
 
-
 This need for this exercise
 SSH to protect the pc
 Terminal to access the git clone
@@ -61,7 +65,6 @@ enter 3 times
 <cd ~/.ssh>
 <ls>
 <cat id_rsa.pub>
-
 
 Copy the entire SSH public code (in my case):
 <ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJS7o2pn7yD0KhCAoQj/3kohRqb+LCtOxK17JmieiHJ+9FV7iTRgmVDPb4+AKpIPnLPr9UbBWGrUDhTtYLcKghDyw02YAA3e2RqLOcXGX98GbHV5t88dH6Cv7VMW4RWoUkaK62kJbSwvXvgX/sVYpaIMTcdk2Exv8H47lWJtiSOcIKz07WVikK2xGd7dSjJzENUcevzUYVt8HtqOZseAi0Jynq8Yiu2ub+0cLo82k694LJbFUjyWrFw2H4M36TzII410fFUQrGRzgHCSPA2g75MEORTD0o7Ac41lT74g+suAEVkdYguZs2pbWk2OR5kLEM0AEutVgOz+0RnP6zMVr8vvt34ywk0kPJqN+CyJKWGVEfaARoMh5rivsdFdAnu2K5Cs+LsVR2UKXze7bEJqB4ZKKsCC85Kg7WPu/iGDws8fkCBrGb2iSWiH4ZuDMgVUsIiHoTW+20kXb1p5VvlO/aVukGVftAriCw0abHbr7Inij7Hyfut9kyPR0vaQINr4M= yuneo@c2r6s10.42singapore.sg>
