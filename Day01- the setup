@@ -123,7 +123,17 @@ total 1
 -r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00
 ---
 
+list attributes and properties
 
+ls -p:
+This option appends a forward slash (/) to the names of directories in the output. This provides a quick visual cue to distinguish directories from regular files without needing to examine file permissions or use other options like ls -l.
+ls -F:
+This option uses various characters to indicate file types:
+/: Indicates a directory.
+@: Indicates a symbolic link.
+|: Indicates a FIFO (named pipe) file.
+=: Indicates a socket file (on some systems).
+*: Indicates an executable file (a program you can run).
 
 
 
